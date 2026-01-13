@@ -36,7 +36,7 @@ start
 
 ### ExtraMarks
 
-To observe the Extra Marks feature (fault tolerance with ACKs), start all peers and the server as described. Then, terminate (Ctrl+C) any one peer’s terminal. You’ll see that the token continues to circulate and the remaining peers keep processing requests, demonstrating that the ring tolerates peer failures and maintains operation.
+To observe the Extra Marks feature (fault tolerance with ACKs), start all peers and the server as described. Then, terminate (Ctrl+C) any one peer’s terminal. You’ll see that the token continues to circulate and the remaining peers keep processing requests, demonstrating that the ring tolerates peer failures and maintains operation. 
 
 ---
 
@@ -63,6 +63,7 @@ Peers register neighbors and synchronize values automatically.
 ### ExtraMarks
 
 For the ExtraMarks, I used 6, 8, 10, 12 and 15 peers. The convergence time cna be checked in the convergence_summary.png, which was created with the convergence_summary.csv
+
 ---
 
 ## TOM (Lamport Total Order)
